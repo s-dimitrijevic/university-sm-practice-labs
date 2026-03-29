@@ -1,0 +1,29 @@
+!SESSION 2026-03-29 13:18:57.683 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=J2RE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260-20080816_22093 (JIT enabled, AOT enabled)
+J9VM - 20080816_022093_lHdSMr
+JIT  - r9_20080721_1330ifx2
+GC   - 20080724_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=sr_RS
+Framework arguments:  -product com.ibm.rational.rsastd.product.v75.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsastd.product.v75.ide
+
+!ENTRY org.eclipse.osgi 2 1 2026-03-29 13:19:37.906
+!MESSAGE NLS missing message: DragFeedbackFigure_Unit_is_Shown_on_Host_therefore_c_ in: com.ibm.ccl.soa.deploy.core.ui.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2026-03-29 13:19:37.907
+!MESSAGE NLS missing message: DeployDropTargetListener_One_or_more_units_are_Show_on_Host_ in: com.ibm.ccl.soa.deploy.core.ui.Messages
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2026-03-29 13:19:46.495
+!MESSAGE Could not acquire INavigatorContentService from part ("Welcome").
+
+!ENTRY org.eclipse.ui.workbench 2 0 2026-03-29 13:21:05.931
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2026-03-29 13:21:05.931
+!MESSAGE Conflict for 'org.eclipse.wst.sse.ui.format':
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@b8a39b5e,sourcePriority=1073741824)
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@2c63552c,sourcePriority=1073741824)
