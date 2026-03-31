@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="114" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="743" y="321">
+<window height="768" maximized="true" width="1024" x="743" y="321">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.ibm.ccl.erf.ui.views.reportexplorer"/>
 </fastViewData>
@@ -10,7 +10,7 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="219" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.ccl.soa.deploy.core.ui.navigator.deploymentNavigatorActionSet" itemType="typeToolBarContribution" x="38" y="30"/>
 <coolItem id="com.ibm.xtools.common.ui.reduction.modelingViewpointsActionSet" itemType="typeToolBarContribution" x="101" y="30"/>
@@ -22,12 +22,13 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="ModelerDiagramEditor" itemType="typeToolBarContribution" x="974" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="ModelerDiagramEditor" itemType="typeToolBarContribution" x="974" y="30"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page focus="true" label="Workspace - Modeling">
+<page aggregateWorkingSetId="Aggregate for window 1774964806154" focus="true" label="Workspace - Modeling">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -41,6 +42,12 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
 </presentation>
 </folder>
 </info>
@@ -53,6 +60,19 @@
 </editor>
 <editor id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadaci.emx" partName="Zadaci.emx" path="X:/System Design/university-sm-practice-labs/Vezbe02/Zadaci.emx" title="Zadaci.emx" tooltip="Vezbe02/Zadaci.emx" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Vezbe02/Zadaci.emx"/>
+</editor>
+<editor id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadaci.emx" partName="Zadaci.emx" path="X:/System Design/university-sm-practice-labs/Vezbe03/Zadaci.emx" title="Zadaci.emx" tooltip="Vezbe03/Zadaci.emx" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Vezbe03/Zadaci.emx"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="zadatak 2" partName="zadatak 2" path="X:/System Design/university-sm-practice-labs/Vezbe03/zadatak 2" title="zadatak 2" tooltip="Vezbe03/zadatak 2" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Vezbe03/zadatak 2"/>
+<editorState selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadatak 2.emx" partName="Zadatak 2.emx" path="X:/System Design/university-sm-practice-labs/Vezbe03/Zadatak 2.emx" title="Zadatak 2.emx" tooltip="Vezbe03/Zadatak 2.emx" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Vezbe03/Zadatak 2.emx"/>
+</editor>
+<editor id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadatak 3.emx" partName="Zadatak 3.emx" path="X:/System Design/university-sm-practice-labs/Vezbe03/Zadatak 3.emx" title="Zadatak 3.emx" tooltip="Vezbe03/Zadatak 3.emx" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Vezbe03/Zadatak 3.emx"/>
 </editor>
 </editors>
 <views>
@@ -70,7 +90,18 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="44" org.eclipse.ui.ide.descriptionField="304" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="94"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" partName="Report Explorer"/>
 </views>
 <perspectives activePart="ModelerDiagramEditor" activePerspective="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective">
@@ -199,6 +230,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadatak 3.emx" tooltip="Vezbe03/Zadatak 3.emx">
+<persistable path="/Vezbe03/Zadatak 3.emx"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadatak 2.emx" tooltip="Vezbe03/Zadatak 2.emx">
+<persistable path="/Vezbe03/Zadatak 2.emx"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="zadatak 2" tooltip="Vezbe03/zadatak 2">
+<persistable path="/Vezbe03/zadatak 2"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadaci.emx" tooltip="Vezbe03/Zadaci.emx">
+<persistable path="/Vezbe03/Zadaci.emx"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Zadaci.emx" tooltip="Vezbe02/Zadaci.emx">
 <persistable path="/Vezbe02/Zadaci.emx"/>
 </file>
